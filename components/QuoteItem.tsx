@@ -12,7 +12,7 @@ export default function QuoteItem({ quote, onDelete }: QuoteCardProps) {
       <Text style={styles.quoteText}>{quote.text}</Text>
       <Text style={styles.authorText}>{quote.author}</Text>
       <Pressable onPress={() => onDelete(quote.id)}>
-        <Text style={styles.deleteText}>Ta bort</Text>
+        <Text style={styles.deleteText}>Remove</Text>
       </Pressable>
     </View>
   );

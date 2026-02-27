@@ -44,7 +44,7 @@ export default function App() {
 
         <View style={styles.main}>
           <Pressable style={styles.button} onPress={fetchQuote}>
-            <Text style={styles.buttonText}>Hämta random quote 💫</Text>
+            <Text style={styles.buttonText}>Fetch random quote 💫</Text>
           </Pressable>
 
           <View>
