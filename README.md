@@ -1,4 +1,4 @@
-# 📱 Quote App
+# 📱 Quotes App
 
 A simple React Native app built with Expo.
 
